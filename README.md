@@ -16,13 +16,13 @@ reader must see same canonical page to the question
 Latency time is concern (question must be answer in less time)
 cost of miss classification at any cost (TARGET FINNALLY)
 
-STEP performed : Reading the Dataset and basic stats Split it into train
+### **STEP performed : Reading the Dataset and basic stats Split it into train
  and test data 
 we have 5 column {qid1 ,qid2 ,Question 1 and question 2 ,Is duplicate}
 {qid1 ,qid2 ,Question 1 and question 2 <----Xi
 is duplicate is <----Yi
 
-STEP 2 perform EDA - Exploratory Data Analysis
+### **STEP 2 perform EDA - Exploratory Data Analysis
 
 Q1 and Q2 --> IDENTIFY THE NUMBER OF UNIQUE QUESTIONS -so we find Unique question appearing more than once (That me uniques question exisyt)Q1 Q2 Q3 Q4
 <img src = "download.png">
@@ -31,7 +31,7 @@ Max  number of times a questiion is repeated   q3 =167
 Check that Number of duplicate records are there like q1 and q3 pair is only once
 Number of occurence of each question 
 
-<b> BASIC FEATURE ENGINEERING 
+### ** BASIC FEATURE ENGINEERING 
 frquency of q1 ,frequency of q2
 question lenght of q1 and q2
 number of words in q1 and q2 
@@ -41,7 +41,7 @@ word share = Word common / word total
 freq q1 +freq q2
 frq q1 -freq q2
 
-<b>STEP 3 PREPROCESSING OF TEXT
+### ** STEP 3 PREPROCESSING OF TEXT
 Removing html tags
 Removing Punctuations
 Performing stemming
@@ -51,7 +51,6 @@ isduplicate
 
 ADVANCE FEATURE EXTRACTION
 now based on words
-
 cwc min = Ratio of common word count / min (len (Word in q1 ), len(word in q2))
 cwc max = Ratio of common word count / max (len (Word in q1 ), len(word in q2))
 
@@ -95,15 +94,16 @@ Sentence 2 :- C6 C2 C3 C4 C5
 longest common substring :C2 C3 C4 C5 
 lenght =4 divide by Min (len token q1),len(token q2)
 
-
+### **  STEP 4 :Using TSNE for Visualization  -Get Insight of Dimensionality reduction
 
 Using TSNE for Visualization  Dimensionality reduction of 15 features to 3 dimension 
 TSNE to project this data in 2D datasset and Dimensional reduction 
 
-
-
 Once the feature are reduced in to feature set to be applied to ML model 
- me Load the data in the ML like Random forest XGBOOST etc
+me Load the data in the ML like Random forest XGBOOST and Evaluate the performance 
+
+
+### ** The Main aim of the project was to Perform EDA on Question pairs
 
 END
  
