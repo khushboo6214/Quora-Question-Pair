@@ -25,7 +25,7 @@ is duplicate is <----Yi
 STEP 2 perform EDA - Exploratory Data Analysis
 
 Q1 and Q2 --> IDENTIFY THE NUMBER OF UNIQUE QUESTIONS -so we find Unique question appearing more than once (That me uniques question exisyt)Q1 Q2 Q3 Q4
-<img src = "
+<img src = "download.png">
 
   Max  number of times a questiion is repeated   q3 =167
 Check that Number of duplicate records are there like q1 and q3 pair is only once
