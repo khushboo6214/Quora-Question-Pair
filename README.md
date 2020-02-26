@@ -27,11 +27,11 @@ STEP 2 perform EDA - Exploratory Data Analysis
 Q1 and Q2 --> IDENTIFY THE NUMBER OF UNIQUE QUESTIONS -so we find Unique question appearing more than once (That me uniques question exisyt)Q1 Q2 Q3 Q4
 <img src = "download.png">
 
-  Max  number of times a questiion is repeated   q3 =167
+Max  number of times a questiion is repeated   q3 =167
 Check that Number of duplicate records are there like q1 and q3 pair is only once
 Number of occurence of each question 
 
- BASIC FEATURE ENGINEERING 
+<b> BASIC FEATURE ENGINEERING 
 frquency of q1 ,frequency of q2
 question lenght of q1 and q2
 number of words in q1 and q2 
@@ -41,7 +41,7 @@ word share = Word common / word total
 freq q1 +freq q2
 frq q1 -freq q2
 
-STEP 3 PREPROCESSING OF TEXT
+<b>STEP 3 PREPROCESSING OF TEXT
 Removing html tags
 Removing Punctuations
 Performing stemming
