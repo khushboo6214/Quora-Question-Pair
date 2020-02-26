@@ -31,7 +31,7 @@ Q1 and Q2 --> IDENTIFY THE NUMBER OF UNIQUE QUESTIONS -so we find Unique questio
 Check that Number of duplicate records are there like q1 and q3 pair is only once
 Number of occurence of each question 
 
-<img src = "download1.png">
+<img src = "download (1).png">
 
 ### ** BASIC FEATURE ENGINEERING 
 frquency of q1 ,frequency of q2
@@ -44,7 +44,10 @@ freq q1 +freq q2
 frq q1 -freq q2
 
 #### **Effectiveness of Wordshare
-<img src = "download2.png">
+<img src = "download (2).png">
+
+#### **Effectiveness of Wordcommon
+<img src = "download (3).png">
 
 ### ** STEP 3 PREPROCESSING OF TEXT
 Removing html tags
