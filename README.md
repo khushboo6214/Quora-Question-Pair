@@ -19,15 +19,13 @@ cost of miss classification at any cost (TARGET FINNALLY)
 STEP performed : Reading the Dataset and basic stats Split it into train
  and test data 
 we have 5 column {qid1 ,qid2 ,Question 1 and question 2 ,Is duplicate}
-
 {qid1 ,qid2 ,Question 1 and question 2 <----Xi
 is duplicate is <----Yi
 
-
 STEP 2 perform EDA - Exploratory Data Analysis
 
-Q1 and Q2 
-   IDENTIFY THE NUMBER OF UNIQUE QUESTIONS -so we find Unique question appearing more than once (That me uniques question exisyt)Q1 Q2 Q3 Q4
+Q1 and Q2 --> IDENTIFY THE NUMBER OF UNIQUE QUESTIONS -so we find Unique question appearing more than once (That me uniques question exisyt)Q1 Q2 Q3 Q4
+<img src = "
 
   Max  number of times a questiion is repeated   q3 =167
 Check that Number of duplicate records are there like q1 and q3 pair is only once
