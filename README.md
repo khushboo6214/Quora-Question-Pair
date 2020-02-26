@@ -100,12 +100,15 @@ longest common substring :C2 C3 C4 C5
 lenght = 4 divide by Min (len token q1),len(token q2)
 ### ** Analysis of extracted features
 <img src = "download (4).png">
+
 <img src = "download (5).png">
+
+<img src = "download (6).png">
 ### **  STEP 4 :Using TSNE for Visualization  -Get Insight of Dimensionality reduction
 
 Using TSNE for Visualization  Dimensionality reduction of 15 features to 3 dimension 
 TSNE to project this data in 2D datasset and Dimensional reduction 
-
+<img src = "download (7).png">
 Once the feature are reduced in to feature set to be applied to ML model 
 me Load the data in the ML like Random forest XGBOOST and Evaluate the performance 
 
