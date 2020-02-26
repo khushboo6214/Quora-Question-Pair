@@ -44,10 +44,10 @@ freq q1 +freq q2
 frq q1 -freq q2
 
 #### **Effectiveness of Wordshare
-<img src = "download (2).png">
+<img src = "download(2).png">
 
 #### **Effectiveness of Wordcommon
-<img src = "download (3).png">
+<img src = "download(3).png">
 
 ### ** STEP 3 PREPROCESSING OF TEXT
 Removing html tags
@@ -74,11 +74,8 @@ ctc max = Ratio of common token count / max (len (token  in q1 ), len(token  in 
 
 
 Last word equal : last word is same or not
-
 first word equal: first word is same or not 
-
 absolute lenght difference : ABS(len of q1 token - lenght of q2 token)
-
 mean lenght=(len of q1 token) +( lenght of q2 token)/2
 
 Fuzzy ratio: If edit distance is very less then word are highly similar fuzzy wuzzy [0 to 100] 100 is very similar eg.FUZZ (NEWYORK ,NEWYANK)=75
@@ -95,13 +92,15 @@ Combination of T0 ,T1
 Combination of T1 ,T2
 Combination of T2 ,T0
 
-
+Example 
 longest common substring
 substring :- C1 C2 C3 C4 C5 
 Sentence 2 :- C6 C2 C3 C4 C5 
 longest common substring :C2 C3 C4 C5 
-lenght =4 divide by Min (len token q1),len(token q2)
-
+lenght = 4 divide by Min (len token q1),len(token q2)
+### ** Analysis of extracted features
+<img src = "download (4).png">
+<img src = "download (5).png">
 ### **  STEP 4 :Using TSNE for Visualization  -Get Insight of Dimensionality reduction
 
 Using TSNE for Visualization  Dimensionality reduction of 15 features to 3 dimension 
