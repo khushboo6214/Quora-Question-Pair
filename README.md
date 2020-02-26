@@ -100,9 +100,9 @@ longest common substring :C2 C3 C4 C5
 lenght = 4 divide by Min (len token q1),len(token q2)
 ### ** Analysis of extracted features
 <img src = "download (4).png">
-
+#### Word Cloud for Duplicate Question pairs
 <img src = "download (5).png">
-
+#### Word Cloud for Non Duplicate Question pairs
 <img src = "download (6).png">
 ### **  STEP 4 :Using TSNE for Visualization  -Get Insight of Dimensionality reduction
 
