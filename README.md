@@ -44,10 +44,10 @@ freq q1 +freq q2
 frq q1 -freq q2
 
 #### **Effectiveness of Wordshare
-<img src = "download(2).png">
+<img src = "download (2).png">
 
 #### **Effectiveness of Wordcommon
-<img src = "download(3).png">
+<img src = "download (3).png">
 
 ### ** STEP 3 PREPROCESSING OF TEXT
 Removing html tags
