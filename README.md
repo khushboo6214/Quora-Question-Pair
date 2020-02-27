@@ -109,11 +109,16 @@ lenght = 4 divide by Min (len token q1),len(token q2)
 Using TSNE for Visualization  Dimensionality reduction of 15 features to 3 dimension 
 TSNE to project this data in 2D datasset and Dimensional reduction 
 <img src = "download (7).png">
+
+## Using TFIDF and Word2Vec /GLove to Convert the word to vector
+
 Once the feature are reduced in to feature set to be applied to ML model 
-me Load the data in the ML like Random forest XGBOOST and Evaluate the performance 
+me Load the data in the ML like Random forest,XGBOOST and Evaluate the performance of ML Model 
 
 
-### ** The Main aim of the project was to Perform EDA on Question pairs
+
+Result the XGBoost has 83.3 % precision and Perform very well on task than Linear Models .
+### ** The Main aim of the project was to Perform EDA on Question pairs 
 
 END
  
